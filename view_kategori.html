@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Arsip BPS Kota Depok - View Data</title>
+  <title>Arsip BPS Kota Depok - View Kategori</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -52,7 +52,7 @@
 
 
       <!-- Nav Item - Pages Collapse Menu -->
-      <li class="nav-item active">
+      <li class="nav-item ">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
           <i class="fas fa-fw fa-table"></i>
           <span>Data</span>
@@ -71,7 +71,7 @@
 
 
       <!-- Nav Item - Utilities Collapse Menu -->
-      <li class="nav-item ">
+      <li class="nav-item active">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
           <i class="fas fa-fw fa-cubes"></i>
           <span>Kategori dan Kegiatan</span>
@@ -176,58 +176,74 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800">View Data</h1>
-
-          <!-- DataTales Example -->
-          <div class="card shadow mb-4">
-            <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">Tabel Data</h6>
-            </div>
-            <div class="card-body">
-              <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                  <thead>
-                    <tr>
-                      <th>Kategori</th>
-                      <th>Kegiatan</th>
-                      <th>Jenis</th>
-                      <th>Judul</th>
-                      <th>Tanggal</th>
-                      <th>Tanggal Upload</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Kategori A</td>
-                      <td>Kegiatan AA</td>
-                      <td>Foto</td>
-                      <td>Foto Dokumentasi Kegiatan AA</td>
-                      <td>2020/04/25</td>
-                      <td>2020/05/04</td>
-                    </tr>
-                    <tr>
-                      <td>Kategori B</td>
-                      <td>Kegiatan BB</td>
-                      <td>Laporan</td>
-                      <td>Laporan Kegiatan BB</td>
-                      <td>2020/04/28</td>
-                      <td>2020/05/03</td>
-                    </tr>
-                    <tr>
-                      <td>Kategori A</td>
-                      <td>Kegiatan AB</td>
-                      <td>File</td>
-                      <td>Data Kegiatan AB</td>
-                      <td>2020/05/20</td>
-                      <td>2020/05/27</td>
-                    </tr>
-                  </tbody>
-                </table>
+          <h1 class="h3 mb-2 text-gray-800">View Kategori dan Kegiatan</h1>
+          <div class="row">
+            <!-- DataTales Example -->
+            <div class="card shadow mb-4 col-md-6">
+              <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Tabel Kategori</h6>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-bordered" id="dataKategori" width="100%" cellspacing="0">
+                    <thead>
+                      <tr>
+                        <th>Kategori</th>
+                        <th>Keterangan</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Kategori A</td>
+                        <td>Kategori pada seksi A</td>
+                      </tr>
+                      <tr>
+                        <td>Kategori B</td>
+                        <td>Kategori pada seksi B</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
+
+            <div class="card shadow mb-4 col-md-6">
+              <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Tabel Kegiatan</h6>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-bordered" id="dataKegiatan" width="100%" cellspacing="0">
+                    <thead>
+                      <tr>
+                        <th>Kategori</th>
+                        <th>Kegiatan</th>
+                        <th>Keterangan</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Kategori A</td>
+                        <td>Kegiatan AA</td>
+                        <td>kegiatan AA pada seksi A</td>
+                      </tr>
+                      <tr>
+                        <td>Kategori B</td>
+                        <td>Kegiatan BB</td>
+                        <td>Kegiatan BB pada seksi B</td>
+                      </tr>
+                      <tr>
+                        <td>Kategori A</td>
+                        <td>Kegiatan AB</td>
+                        <td>Kegiatan AB pada seksi A</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
           </div>
-
-
         </div>
         <!-- /.container-fluid -->
 
