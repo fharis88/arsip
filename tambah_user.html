@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Arsip BPS Kota Depok - View Kategori</title>
+  <title>Arsip BPS Kota Depok - Tambah User</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -71,7 +71,7 @@
 
 
       <!-- Nav Item - Utilities Collapse Menu -->
-      <li class="nav-item active">
+      <li class="nav-item ">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
           <i class="fas fa-fw fa-cubes"></i>
           <span>Kategori dan Kegiatan</span>
@@ -104,7 +104,7 @@
       </li>
 
       <!-- Nav Item - Tables -->
-      <li class="nav-item ">
+      <li class="nav-item active">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
           <i class="fas fa-fw fa-cubes"></i>
           <span>User</span>
@@ -184,73 +184,59 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800">View Kategori dan Kegiatan</h1>
+          <h1 class="h3 mb-2 text-gray-800">Tambah User</h1>
           <div class="row">
             <!-- DataTales Example -->
             <div class="card shadow mb-4 col-md-6">
               <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">Tabel Kategori</h6>
+                <h6 class="m-0 font-weight-bold text-primary"></h6>
               </div>
               <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table table-bordered" id="dataKategori" width="100%" cellspacing="0">
-                    <thead>
-                      <tr>
-                        <th>Kategori</th>
-                        <th>Keterangan</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Kategori A</td>
-                        <td>Kategori pada seksi A</td>
-                      </tr>
-                      <tr>
-                        <td>Kategori B</td>
-                        <td>Kategori pada seksi B</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
+                <form class="user">
+                  <div class="form-group">
+                    <input type="text" class="form-control form-control-user" id="nip_lama" placeholder="NIP Lama......">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control form-control-user" id="nama" placeholder="Nama......">
+                  </div>
+                  <div>
+                    <select class="form-control " id="tipe">
+                      <option>Admin</option>
+                      <option>Kepala</option>
+                      <option>Kepala Subbagian</option>
+                      <option>Kepala Seksi</option>
+                      <option>Staff</option>
+                      <option>KSK</option>
+                      <option>Mitra</option>
+                      
+                    </select>
+                  </div>
+                  <div>
+                    <select class="form-control " id="seksi">
+                      <option>-</option>
+                      <option>TU</option>
+                      <option>Seksi Statistik Sosial</option>
+                      <option>Seksi Statistik Produksi</option>
+                      <option>Seksi Statistik Distribusi</option>
+                      <option>Seksi Neraca Wilayah dan Analisis Statistik</option>
+                      <option>Seksi Integrasi Pengolahan dan Diseminasi Statistik</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control form-control-user" id="Password" placeholder="Password......">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control form-control-user" id="Password_Ulang" placeholder="Tuliskan kembali Password......">
+                  </div>
+                  <a href="index.html" class="btn btn-primary btn-user btn-block">
+                    Simpan User
+                  </a>
+                  <hr>
+                </form>
               </div>
             </div>
 
-            <div class="card shadow mb-4 col-md-6">
-              <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">Tabel Kegiatan</h6>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table table-bordered" id="dataKegiatan" width="100%" cellspacing="0">
-                    <thead>
-                      <tr>
-                        <th>Kategori</th>
-                        <th>Kegiatan</th>
-                        <th>Keterangan</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Kategori A</td>
-                        <td>Kegiatan AA</td>
-                        <td>kegiatan AA pada seksi A</td>
-                      </tr>
-                      <tr>
-                        <td>Kategori B</td>
-                        <td>Kegiatan BB</td>
-                        <td>Kegiatan BB pada seksi B</td>
-                      </tr>
-                      <tr>
-                        <td>Kategori A</td>
-                        <td>Kegiatan AB</td>
-                        <td>Kegiatan AB pada seksi A</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-
+           
           </div>
         </div>
         <!-- /.container-fluid -->

@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Arsip BPS Kota Depok - View Kategori</title>
+  <title>Arsip BPS Kota Depok - View User</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -71,7 +71,7 @@
 
 
       <!-- Nav Item - Utilities Collapse Menu -->
-      <li class="nav-item active">
+      <li class="nav-item ">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
           <i class="fas fa-fw fa-cubes"></i>
           <span>Kategori dan Kegiatan</span>
@@ -104,7 +104,7 @@
       </li>
 
       <!-- Nav Item - Tables -->
-      <li class="nav-item ">
+      <li class="nav-item active">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
           <i class="fas fa-fw fa-cubes"></i>
           <span>User</span>
@@ -184,74 +184,44 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800">View Kategori dan Kegiatan</h1>
-          <div class="row">
-            <!-- DataTales Example -->
-            <div class="card shadow mb-4 col-md-6">
-              <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">Tabel Kategori</h6>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table table-bordered" id="dataKategori" width="100%" cellspacing="0">
-                    <thead>
-                      <tr>
-                        <th>Kategori</th>
-                        <th>Keterangan</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Kategori A</td>
-                        <td>Kategori pada seksi A</td>
-                      </tr>
-                      <tr>
-                        <td>Kategori B</td>
-                        <td>Kategori pada seksi B</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
+          <h1 class="h3 mb-2 text-gray-800">View User</h1>
+
+          <!-- DataTales Example -->
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Tabel User</h6>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>NIP</th>
+                      <th>Nama</th>
+                      <th>Tipe User</th>
+                      <th>Seksi</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>340059936</td>
+                      <td>Rizky Aldi Kurniawan A.P.Kb.N.</td>
+                      <td>Staff</td>
+                      <td>Subbagian Tata Usaha</td>
+                    </tr>
+                    <tr>
+                      <td>340059515</td>
+                      <td>Faisal Haris</td>
+                      <td>Staff</td>
+                      <td>Seksi Integrasi Pengolahan dan Diseminasi Statistik</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
-
-            <div class="card shadow mb-4 col-md-6">
-              <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">Tabel Kegiatan</h6>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table table-bordered" id="dataKegiatan" width="100%" cellspacing="0">
-                    <thead>
-                      <tr>
-                        <th>Kategori</th>
-                        <th>Kegiatan</th>
-                        <th>Keterangan</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Kategori A</td>
-                        <td>Kegiatan AA</td>
-                        <td>kegiatan AA pada seksi A</td>
-                      </tr>
-                      <tr>
-                        <td>Kategori B</td>
-                        <td>Kegiatan BB</td>
-                        <td>Kegiatan BB pada seksi B</td>
-                      </tr>
-                      <tr>
-                        <td>Kategori A</td>
-                        <td>Kegiatan AB</td>
-                        <td>Kegiatan AB pada seksi A</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-
           </div>
+
+
         </div>
         <!-- /.container-fluid -->
 
